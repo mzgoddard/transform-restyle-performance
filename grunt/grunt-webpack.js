@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-webpack');
 
   grunt.config.set('webpack', {
-    dev: require('../webpack.config'),
+    build: require('../webpack.config.build'),
   });
 
   grunt.config.set('webpack-dev-server', {

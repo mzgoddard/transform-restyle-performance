@@ -1,0 +1,15 @@
+.test-item {
+  display: inline-block;
+  position: absolute;
+/*  width: 10px;
+  height: 10px;
+  background: black;*/
+}
+
+.test-item > div {
+  display: inline-block;
+/*  float: left;*/
+  width: 10px;
+  height: 10px;
+  background: black;
+}

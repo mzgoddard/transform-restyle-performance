@@ -8,7 +8,7 @@ module.exports = function(grunt) {
   grunt.config.set('webpack-dev-server', {
     dev: {
       host: '0.0.0.0',
-      port: 8082,
+      port: grunt.option('port') || 8080,
       hot: true,
       inline: true,
       keepalive: true,
